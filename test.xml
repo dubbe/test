@@ -1,0 +1,1470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<STEP-ProductInformation ExportTime="2020-11-19 15:43:54" ExportContext="SE" ContextID="SE" WorkspaceID="Approved" UseContextLocale="false">
+  <UnitList>
+    <Unit ID="ETIM EU570449" Referenced="true">
+      <Name>l/s</Name>
+      <MetaData>
+        <Value AttributeID="ETIM ID">EU570449</Value>
+        <Value AttributeID="4941">Liter per sekund</Value>
+        <Value AttributeID="ETIM Description">l/s</Value>
+      </MetaData>
+    </Unit>
+    <Unit ID="unece.unit.MMT" Referenced="true">
+      <Name>mm</Name>
+      <UnitConversion BaseUnitID="unece.unit.MTR" Factor=".001" Offset="0"/>
+      <MetaData>
+        <Value AttributeID="ETIM Description">mm</Value>
+        <Value AttributeID="4941">Millimeter</Value>
+        <Value AttributeID="ETIM ID">EU570448</Value>
+      </MetaData>
+    </Unit>
+  </UnitList>
+  <ListOfValuesGroupList>
+    <ListOfValuesGroup ID="List Of Values group root">
+      <Name>Lists of Values / LOVs</Name>
+      <ListOfValuesGroup ID="pm_LOVs">
+        <Name>PM LOVs</Name>
+      </ListOfValuesGroup>
+    </ListOfValuesGroup>
+  </ListOfValuesGroupList>
+  <ListsOfValues>
+    <ListOfValue ID="ETIM EF001334" ParentID="ETIM List Of Values" AllowUserValueAddition="false" UseValueID="true" Referenced="true">
+      <Name>Särskild strömförsörjning</Name>
+      <Validation BaseType="text" MinValue="" MaxValue="" MaxLength="80" InputMask=""/>
+      <DimensionLink DimensionID="Language"/>
+      <Value ID="EV004384">Ytterligare säkerhetsströmförsörjning (röd)</Value>
+      <Value ID="EV006379">EDP (elektronisk databehandling)</Value>
+      <Value ID="EV000154">Övrigt</Value>
+      <Value ID="EV004382">Säkerhetsströmförsörjning (grön)</Value>
+      <Value ID="EV004383">Kompletterande säkerhetsströmförsörjning (orange)</Value>
+      <Value ID="EV006426">Ingen särskild strömförsörjning</Value>
+    </ListOfValue>
+  </ListsOfValues>
+  <AttributeGroupList>
+    <AttributeGroup ID="Outlet Webstore" ShowInWorkbench="true" ManuallySorted="true" Referenced="true">
+      <Name>3.1 Outlet Webshop</Name>
+      <AttributeSequence>
+        <AttributeLink AttributeID="OutletConstruction"/>
+        <AttributeLink AttributeID="OutletElectro"/>
+        <AttributeLink AttributeID="Geliaoutlet"/>
+        <AttributeLink AttributeID="GeliaoutletFi"/>
+        <AttributeLink AttributeID="GeliaoutletNo"/>
+        <AttributeLink AttributeID="OutletRef"/>
+        <AttributeLink AttributeID="OutletPPE"/>
+        <AttributeLink AttributeID="OutletVA"/>
+        <AttributeLink AttributeID="OutletTools"/>
+        <AttributeLink AttributeID="OutletHVAC"/>
+        <AttributeLink AttributeID="OutletVVSTrading"/>
+        <AttributeLink AttributeID="OutletWorkwear"/>
+        <AttributeLink AttributeID="OutletVentilation"/>
+        <AttributeLink AttributeID="OutletStorageHandling"/>
+        <AttributeLink AttributeID="OutletConsumables"/>
+        <AttributeLink AttributeID="OutletFastening"/>
+        <AttributeLink AttributeID="OutletInsulation"/>
+      </AttributeSequence>
+    </AttributeGroup>
+  </AttributeGroupList>
+  <AttributeList>
+    <Attribute ID="ETIM EF000004 10064" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" HierarchicalFiltering="false" ClassificationHierarchicalFiltering="false" Referenced="true" Mandatory="false">
+      <Name>Skyddsklass</Name>
+      <ListOfValueLink ListOfValueID="ETIM EF000004"/>
+      <MetaData>
+        <Value AttributeID="ETIM ID">10064</Value>
+        <Value Derived="true" AttributeID="Attribute Name Calc - Ahlsell">Skyddsklass</Value>
+        <Value Derived="true" AttributeID="Table Header Calc">Skyddsklass</Value>
+        <Value AttributeID="ETIM Description">Skyddsklass</Value>
+        <Value Derived="true" AttributeID="Table Header Calc - Gelia">Skyddsklass</Value>
+        <Value AttributeID="ETIM Feature ID">EF000004</Value>
+        <Value Derived="true" AttributeID="Attribute Name Calc - Gelia">Skyddsklass</Value>
+      </MetaData>
+      <AttributeGroupLink AttributeGroupID="SmartSheetAttributes"/>
+      <AttributeGroupLink AttributeGroupID="ETIM Attributes"/>
+      <UserTypeLink UserTypeID="Item"/>
+      <ValueFilter>
+        <Value ID="3"/>
+        <Value ID="EV022593"/>
+        <Value ID="EV006419"/>
+        <Value ID="6"/>
+        <Value ID="7"/>
+        <Value ID="5"/>
+        <Value ID="EV006420"/>
+        <Value ID="EV000583"/>
+        <Value ID="EV006608"/>
+        <Value ID="2"/>
+        <Value ID="EV009290"/>
+        <Value ID="1"/>
+        <Value ID="EV006611"/>
+        <Value ID="EV000582"/>
+        <Value ID="4"/>
+        <Value ID="EV022592"/>
+      </ValueFilter>
+    </Attribute>
+    <Attribute ID="AEF000008_NUMBERRANGE" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="false" Derived="false" Referenced="true" Mandatory="false">
+      <Name>Bredd</Name>
+      <Validation BaseType="numberrangenobounds" MinValue="" MaxValue="" MaxLength="" InputMask="">
+        <UnitLink UnitID="unece.unit.CMT"/>
+        <UnitLink UnitID="unece.unit.INH"/>
+        <UnitLink UnitID="unece.unit.MMT"/>
+        <UnitLink UnitID="unece.unit.MTR"/>
+      </Validation>
+      <MetaData>
+        <Value Derived="true" AttributeID="Attribute Name Calc - Gelia">Bredd</Value>
+        <Value Derived="true" AttributeID="Table Header Calc - Gelia">Bredd</Value>
+        <Value Derived="true" AttributeID="Attribute Name Calc - Ahlsell">Bredd</Value>
+        <Value Derived="true" AttributeID="Table Header Calc">Bredd</Value>
+      </MetaData>
+      <AttributeGroupLink AttributeGroupID="SmartSheetAttributes"/>
+      <AttributeGroupLink AttributeGroupID="AEF ETIM Features"/>
+      <UserTypeLink UserTypeID="Item"/>
+    </Attribute>
+    <Attribute ID="AF000413_LOV" MultiValued="false" ProductMode="Normal" FullTextIndexed="false" ExternallyMaintained="true" Derived="false" HierarchicalFiltering="false" ClassificationHierarchicalFiltering="false" Referenced="true" Mandatory="false">
+      <Name>Enhet</Name>
+      <ListOfValueLink ListOfValueID="AF000413-LOV"/>
+      <MetaData>
+        <Value Derived="true" AttributeID="Attribute Name Calc - Ahlsell">Enhet</Value>
+        <Value Derived="true" AttributeID="Table Header Calc">Enhet</Value>
+        <Value Derived="true" AttributeID="Table Header Calc - Gelia">Enhet</Value>
+        <Value ID="2" AttributeID="ExportInSmartSheet">No</Value>
+        <Value Derived="true" AttributeID="Attribute Name Calc - Gelia">Enhet</Value>
+      </MetaData>
+      <AttributeGroupLink AttributeGroupID="AttrGrpWebshop"/>
+      <AttributeGroupLink AttributeGroupID="EnhetAttributes"/>
+      <AttributeGroupLink AttributeGroupID="Gelia Article Table Attributes"/>
+      <UserTypeLink UserTypeID="Item"/>
+    </Attribute>
+  </AttributeList>
+  <Classifications>
+    <Classification ID="Local Structures" UserTypeID="Local Structures" ParentID="Classification 1 root" Selected="false">
+      <Name>Local Structures</Name>
+      <AttributeLink AttributeID="VENDNAME1"/>
+      <AttributeLink AttributeID="VENDPARTNO"/>
+      <AttributeLink AttributeID="VENDNAME2"/>
+      <AttributeLink AttributeID="VENDPARTDESCR2"/>
+      <AttributeLink AttributeID="CZPARTNOTE2"/>
+      <AttributeLink AttributeID="VENDPARTDESCR1"/>
+      <AttributeLink AttributeID="CZPARTNOTE1"/>
+      <AttributeLink AttributeID="EMPLOYNAME_VENDOR"/>
+      <AttributeLink AttributeID="PARTNOCAT"/>
+      <AttributeLink AttributeID="EMPLOYNO_VENDOR"/>
+      <AttributeLink AttributeID="PARTNOOWNER"/>
+      <AttributeLink AttributeID="CZASSORTMENT"/>
+      <AttributeLink AttributeID="PURCHSTOP_LOCAL"/>
+      <AttributeLink AttributeID="PARTTYPE1"/>
+      <AttributeLink AttributeID="CZCATALOGIND"/>
+      <AttributeLink AttributeID="VENDNO"/>
+      <AttributeLink AttributeID="CREDATE_LOCAL"/>
+      <AttributeLink AttributeID="EMPLOYNO_ASSORTMENT"/>
+      <AttributeLink AttributeID="KILLDATE_LOCAL"/>
+      <AttributeLink AttributeID="CZCERTIF"/>
+      <AttributeLink AttributeID="CHANGEDATE_LOCAL"/>
+      <AttributeLink AttributeID="EMPLOYNAME_ASSORTMENT"/>
+      <AttributeLink AttributeID="ENERGIEFFEKTIV"/>
+      <AttributeLink AttributeID="SYN_CODE"/>
+      <AttributeLink AttributeID="WEBSHOP"/>
+      <Classification ID="10 1 C" UserTypeID="Class1 Local" Selected="false">
+        <Name>C - BYGG</Name>
+        <Classification ID="10 7 CO" UserTypeID="Class7" Selected="false">
+          <Name>CO - SKIVMATERIAL</Name>
+          <Classification ID="10 8 CO1550" UserTypeID="Class8" Selected="false" Referenced="true">
+            <Name>CO1550 - GIPSSKIVA VÅTRUM NORGIPS P0</Name>
+            <MetaData>
+              <Value AttributeID="Catalogue User responsible Group_Calc" Derived="true">STEP Catalogue Users-Sweden</Value>
+            </MetaData>
+          </Classification>
+          <Classification ID="10 8 CO2350" UserTypeID="Class8" Selected="false" Referenced="true">
+            <Name>CO2350 - PLYWOOD P0</Name>
+            <MetaData>
+              <Value AttributeID="Catalogue User responsible Group_Calc" Derived="true">STEP Catalogue Users-Sweden</Value>
+            </MetaData>
+          </Classification>
+        </Classification>
+      </Classification>
+    </Classification>
+  </Classifications>
+  <Assets>
+    <Asset ID="25102676" UserTypeID="JPG Image" Selected="false" Referenced="true">
+      <Name>462795</Name>
+      <AssetPushLocation ConfigurationID="raw-main" Status="OK_DOWNLOADED">raw-main/std.lang.all/26/76/25102676.jpg</AssetPushLocation>
+      <AssetPushLocation ConfigurationID="JPEGlarge800_800" Status="OK_UPTODATE">JPEGlarge800_800/std.lang.all/26/76/25102676.jpg</AssetPushLocation>
+      <AssetPushLocation ConfigurationID="raw-approved" Status="OK_DOWNLOADED">raw-approved/std.lang.all/26/76/25102676.jpg</AssetPushLocation>
+      <ClassificationReference ClassificationID="Personligt Skydd"/>
+      <Values>
+        <Value AttributeID="asset.pixel-height" UnitID="pixels">2000</Value>
+        <Value AttributeID="asset.size">709846</Value>
+        <Value AttributeID="asset.ydpi" UnitID="dpi">72.0</Value>
+        <Value AttributeID="asset.compression">JPEG</Value>
+        <Value AttributeID="asset.format">JPEG (Joint Photographic Experts Group JFIF image)</Value>
+        <Value AttributeID="asset.xdpi" UnitID="dpi">72.0</Value>
+        <Value AttributeID="asset.filename">462795.jpg</Value>
+        <Value AttributeID="asset.width" UnitID="mm">564.4444444444445</Value>
+        <Value AttributeID="asset.class">True color</Value>
+        <Value AttributeID="asset.uploaded">2016-05-19 13:50:22</Value>
+        <Value AttributeID="asset.extension">jpg</Value>
+        <Value AttributeID="asset.pixel-width" UnitID="pixels">1600</Value>
+        <Value AttributeID="asset.height" UnitID="mm">705.5555555555555</Value>
+        <Value AttributeID="asset.colorspace">RGB</Value>
+        <Value AttributeID="asset.depth" UnitID="bits/sample">8</Value>
+        <Value AttributeID="asset.mime-type">image/jpeg</Value>
+        <Value AttributeID="asset.profile">Custom EXIF, Custom XMP, Custom color, IPTC</Value>
+        <Value AttributeID="asset.samples" UnitID="samples/pixel">3</Value>
+      </Values>
+    </Asset>
+  </Assets>
+  <Products>
+    <Product ID="Product hierarchy root" UserTypeID="Product user-type root" Selected="false">
+      <Name>Primary Product Hierarchy</Name>
+      <AttributeLink AttributeID="DiscontinueReplace"/>
+      <AttributeLink AttributeID="Original EAN number"/>
+      <AttributeLink AttributeID="Original item number"/>
+      <AttributeLink AttributeID="DummyEventAttribute"/>
+      <AttributeLink AttributeID="DummyEventWebAttribute"/>
+      <Product ID="Ahlsell Product Structure" UserTypeID="Ahlsell Product Structure" Selected="false">
+        <Name>Ahlsell Product Structure</Name>
+        <AttributeLink AttributeID="AttrConfigURL"/>
+        <AttributeLink AttributeID="AF001903">
+          <MetaData>
+            <Value AttributeID="Delete" ID="2">No</Value>
+          </MetaData>
+        </AttributeLink>
+        <AttributeLink AttributeID="AF001374"/>
+        <AttributeLink AttributeID="AEF000160_LOV"/>
+        <AttributeLink AttributeID="AttrQuickURL"/>
+        <AttributeLink AttributeID="AF000140"/>
+        <AttributeLink AttributeID="PARTDESCR2"/>
+        <AttributeLink AttributeID="Product Sheet Text 5 Header"/>
+        <AttributeLink AttributeID="AF999999"/>
+        <AttributeLink AttributeID="UP Unclassified product"/>
+        <AttributeLink AttributeID="OutletRef"/>
+        <AttributeLink AttributeID="PARTDESCR1"/>
+        <AttributeLink AttributeID="Publication date"/>
+        <AttributeLink AttributeID="OutletVVSTrading"/>
+        <AttributeLink AttributeID="Product Sheet Text 3 Header"/>
+        <AttributeLink AttributeID="AF002085"/>
+        <AttributeLink AttributeID="PARTNOTE2"/>
+        <AttributeLink AttributeID="Product Sheet Text 4 Header"/>
+        <AttributeLink AttributeID="PARTNOTE1"/>
+        <AttributeLink AttributeID="Product 80% in Workflow 140916"/>
+        <AttributeLink AttributeID="AttrMaintAndOperationUrl"/>
+        <AttributeLink AttributeID="CATID457"/>
+        <AttributeLink AttributeID="OutletConstruction"/>
+        <AttributeLink AttributeID="Product Sheet Text 6 Header"/>
+        <AttributeLink AttributeID="Long Product Description"/>
+        <AttributeLink AttributeID="Initial CLASS4"/>
+        <AttributeLink AttributeID="Product Sheet Text 6"/>
+        <AttributeLink AttributeID="KILLDATE_GLOBAL"/>
+        <AttributeLink AttributeID="PackagingSizes"/>
+        <AttributeLink AttributeID="PARTNO_DUBB"/>
+        <AttributeLink AttributeID="UNSPSC_V10"/>
+        <AttributeLink AttributeID="PARTNO_DUBB_NEW"/>
+        <AttributeLink AttributeID="Product Sheet Text 1"/>
+        <AttributeLink AttributeID="GTIN"/>
+        <AttributeLink AttributeID="GeliaoutletFi"/>
+        <AttributeLink AttributeID="GeliaoutletNo"/>
+        <AttributeLink AttributeID="Product Sheet Text 2"/>
+        <AttributeLink AttributeID="AttrSupplierProductAhlUrl"/>
+        <AttributeLink AttributeID="Synonym Article Number Calc"/>
+        <AttributeLink AttributeID="Calc-Product-Name"/>
+        <AttributeLink AttributeID="Show Accessories"/>
+        <AttributeLink AttributeID="Product Sheet Text 3"/>
+        <AttributeLink AttributeID="Gelia MAKE"/>
+        <AttributeLink AttributeID="Product Sheet Text 2 Header"/>
+        <AttributeLink AttributeID="Product with 80% Turnover"/>
+        <AttributeLink AttributeID="Require_assets"/>
+        <AttributeLink AttributeID="AttrStepDeclarationofConformityUrl"/>
+        <AttributeLink AttributeID="UUP"/>
+        <AttributeLink AttributeID="Branschartikelnummer"/>
+        <AttributeLink AttributeID="Product Sheet Text 4"/>
+        <AttributeLink AttributeID="LongProductDescriptionCheck"/>
+        <AttributeLink AttributeID="Polar"/>
+        <AttributeLink AttributeID="DB Tables Approved"/>
+        <AttributeLink AttributeID="OutletWorkwear"/>
+        <AttributeLink AttributeID="Product Sheet Text 5"/>
+        <AttributeLink AttributeID="AttrStepSafetyDataSheetUrl"/>
+        <AttributeLink AttributeID="OutletStorageHandling"/>
+        <AttributeLink AttributeID="ContainsQuantity"/>
+        <AttributeLink AttributeID="OutletConsumables"/>
+        <AttributeLink AttributeID="Blueprint for Approval_New"/>
+        <AttributeLink AttributeID="ProductClass Review Status"/>
+        <AttributeLink AttributeID="Tele &amp; Data"/>
+        <AttributeLink AttributeID="OutletFastening"/>
+        <AttributeLink AttributeID="CLASS8"/>
+        <AttributeLink AttributeID="Turnover R12  201304"/>
+        <AttributeLink AttributeID="UseTableException"/>
+        <AttributeLink AttributeID="AttrManualUrl"/>
+        <AttributeLink AttributeID="AttrSupplierProductUrl"/>
+        <AttributeLink AttributeID="AttrFilmURL"/>
+        <AttributeLink AttributeID="AttrBuildingProductDeclarationUrl"/>
+        <AttributeLink AttributeID="Tools Articlenumber"/>
+        <AttributeLink AttributeID="AttrInstallationBuildProdDeclUrl"/>
+        <AttributeLink AttributeID="CATID001"/>
+        <AttributeLink AttributeID="EAN_Ahlsell_Encoded"/>
+        <AttributeLink AttributeID="AttrAssemblyInstructionUrl"/>
+        <AttributeLink AttributeID="AttrProductEnvironmentalProfileUrl"/>
+        <AttributeLink AttributeID="AttrREACHUrl"/>
+        <AttributeLink AttributeID="AttrDeclarationOfPerformanceUrl"/>
+        <AttributeLink AttributeID="AttrSafetyDataSheetUrl"/>
+        <AttributeLink AttributeID="AttrDrawingUrl"/>
+        <AttributeLink AttributeID="AttrStepMaintAndOperationUrl"/>
+        <AttributeLink AttributeID="AttrTypeApprovalUrl"/>
+        <AttributeLink AttributeID="OutletVentilation"/>
+        <AttributeLink AttributeID="AttrStepProductsheetUrl"/>
+        <AttributeLink AttributeID="Brand"/>
+        <AttributeLink AttributeID="AttrStepFilmURL"/>
+        <AttributeLink AttributeID="Etra"/>
+        <AttributeLink AttributeID="Price from Custom Field List 1"/>
+        <AttributeLink AttributeID="PARTSYNIND"/>
+        <AttributeLink AttributeID="Massuppdateflag"/>
+        <AttributeLink AttributeID="PARTNOCAT_NEW"/>
+        <AttributeLink AttributeID="AF009834"/>
+        <AttributeLink AttributeID="OutletVA"/>
+        <AttributeLink AttributeID="CHANGEDATE_GLOBAL"/>
+        <AttributeLink AttributeID="CREDATE_GLOBAL"/>
+        <AttributeLink AttributeID="AttrItemUsp"/>
+        <AttributeLink AttributeID="PURCHSTOP_GLOBAL"/>
+        <AttributeLink AttributeID="SALESSTOP_GLOBAL"/>
+        <AttributeLink AttributeID="CZSYNCD04_PARTNO"/>
+        <AttributeLink AttributeID="DELSTOP_GLOBAL"/>
+        <AttributeLink AttributeID="PARTNOCAT_CZSYNCD04"/>
+        <AttributeLink AttributeID="CERTIF"/>
+        <AttributeLink AttributeID="CZSYNCD02_PARTNO"/>
+        <AttributeLink AttributeID="LOTTYPE"/>
+        <AttributeLink AttributeID="SERIALNO"/>
+        <AttributeLink AttributeID="UNSPSC_V13"/>
+        <AttributeLink AttributeID="CZDUBBLETTIND"/>
+        <AttributeLink AttributeID="Wurth"/>
+        <AttributeLink AttributeID="UNSPSC_V11"/>
+        <AttributeLink AttributeID="AF001151_LOV"/>
+        <AttributeLink AttributeID="AF001151_NUMBERRANGE"/>
+        <AttributeLink AttributeID="AttrProductsheetUrl"/>
+        <AttributeLink AttributeID="CA00001"/>
+        <AttributeLink AttributeID="AttrProductUsp"/>
+        <AttributeLink AttributeID="OutletInsulation"/>
+        <AttributeLink AttributeID="CATID166"/>
+        <AttributeLink AttributeID="CATID165"/>
+        <AttributeLink AttributeID="CATID142"/>
+        <AttributeLink AttributeID="CATID1383"/>
+        <AttributeLink AttributeID="Attr360imgURL"/>
+        <AttributeLink AttributeID="CATID155"/>
+        <AttributeLink AttributeID="CATID143"/>
+        <AttributeLink AttributeID="CATID557"/>
+        <AttributeLink AttributeID="CATID124"/>
+        <AttributeLink AttributeID="Catalogue_24360221"/>
+        <AttributeLink AttributeID="CATID157"/>
+        <AttributeLink AttributeID="CATID640"/>
+        <AttributeLink AttributeID="CATID127"/>
+        <AttributeLink AttributeID="PARTNOCAT_CZSYNCD02"/>
+        <AttributeLink AttributeID="CATID164"/>
+        <AttributeLink AttributeID="Catalogue_28958805"/>
+        <AttributeLink AttributeID="CZSYNCD03_PARTNO"/>
+        <AttributeLink AttributeID="CATID169"/>
+        <AttributeLink AttributeID="PARTNOCAT_CZSYNCD03"/>
+        <AttributeLink AttributeID="CZSYNCD07_PARTNO"/>
+        <AttributeLink AttributeID="CATID154"/>
+        <AttributeLink AttributeID="LC12"/>
+        <AttributeLink AttributeID="PARTNOCAT_CZSYNCD07"/>
+        <AttributeLink AttributeID="CZSYNCD01_PARTNO"/>
+        <AttributeLink AttributeID="Catalogue_28958764"/>
+        <AttributeLink AttributeID="PARTNOCAT_CZSYNCD01"/>
+        <AttributeLink AttributeID="EAN_Gelia"/>
+        <AttributeLink AttributeID="Catalogue_28958802"/>
+        <AttributeLink AttributeID="Product Sheet Text 1 Header"/>
+        <AttributeLink AttributeID="CZSYNCD05_PARTNO"/>
+        <AttributeLink AttributeID="PARTNOCAT_CZSYNCD05"/>
+        <AttributeLink AttributeID="CZSYNCD06_PARTNO"/>
+        <AttributeLink AttributeID="PARTNOCAT_CZSYNCD06"/>
+        <AttributeLink AttributeID="Catalogue_28965194"/>
+        <AttributeLink AttributeID="CATID002"/>
+        <AttributeLink AttributeID="EAN_Ahlsell"/>
+        <AttributeLink AttributeID="AttrStepSINTEFTechAppUrl"/>
+        <AttributeLink AttributeID="Gigant"/>
+        <AttributeLink AttributeID="Luna"/>
+        <AttributeLink AttributeID="AF000413_NUMBERRANGE"/>
+        <AttributeLink AttributeID="CatalogueCheck Print"/>
+        <AttributeLink AttributeID="CATID_FTTH"/>
+        <AttributeLink AttributeID="AF000413_LOV"/>
+        <AttributeLink AttributeID="OutletTools"/>
+        <AttributeLink AttributeID="VENDPARTNO"/>
+        <AttributeLink AttributeID="CATID_E160"/>
+        <AttributeLink AttributeID="UPC"/>
+        <AttributeLink AttributeID="Lagerplats Astro"/>
+        <AttributeLink AttributeID="Parent ID"/>
+        <AttributeLink AttributeID="CATID761"/>
+        <AttributeLink AttributeID="WebShopLinks"/>
+        <AttributeLink AttributeID="AttrStepSINTEFCertUrl"/>
+        <AttributeLink AttributeID="CATID765"/>
+        <AttributeLink AttributeID="Catalogue_22554923"/>
+        <AttributeLink AttributeID="PARTTYPE"/>
+        <AttributeLink AttributeID="PubArtNum"/>
+        <AttributeLink AttributeID="Revision1 Item"/>
+        <AttributeLink AttributeID="UNIT"/>
+        <AttributeLink AttributeID="CZAHLBRAND"/>
+        <AttributeLink AttributeID="PARTTYPE2"/>
+        <AttributeLink AttributeID="CatalogueCheck Web"/>
+        <AttributeLink AttributeID="OutletHVAC"/>
+        <AttributeLink AttributeID="UNITSELL"/>
+        <AttributeLink AttributeID="Geliaoutlet"/>
+        <AttributeLink AttributeID="Gelia PSU"/>
+        <AttributeLink AttributeID="AF002522"/>
+        <AttributeLink AttributeID="Calculated Parent ID"/>
+        <AttributeLink AttributeID="AttrStepBIMobjectUrl"/>
+        <AttributeLink AttributeID="TechnicalSpecificationSummary"/>
+        <AttributeLink AttributeID="EAN_Gelia_Encoded"/>
+        <AttributeLink AttributeID="Gelia Fornodenheter"/>
+        <AttributeLink AttributeID="AF002522_For_Index"/>
+        <AttributeLink AttributeID="PARTNO"/>
+        <AttributeLink AttributeID="AttrPhotometricfileURL"/>
+        <AttributeLink AttributeID="Catalogue_24960956"/>
+        <AttributeLink AttributeID="Catalogue_22554917"/>
+        <AttributeLink AttributeID="CLASS4"/>
+        <AttributeLink AttributeID="OutletElectro"/>
+        <AttributeLink AttributeID="Catalogue_24365697"/>
+        <AttributeLink AttributeID="CATID757"/>
+        <AttributeLink AttributeID="CATID745"/>
+        <AttributeLink AttributeID="Product Sheet Text 7 Header"/>
+        <AttributeLink AttributeID="EMPLOYNO_ASSORTMENT"/>
+        <AttributeLink AttributeID="WORKFLOW_ASSORTMENTRESP_DK"/>
+        <AttributeLink AttributeID="WORKFLOW_ASSORTMENTRESP_SE"/>
+        <AttributeLink AttributeID="Product Turnover R12"/>
+        <AttributeLink AttributeID="Synonyms"/>
+        <AttributeLink AttributeID="Assortment Responsible NO_Calc"/>
+        <AttributeLink AttributeID="Removed from New article WF"/>
+        <AttributeLink AttributeID="Verktoycamp"/>
+        <AttributeLink AttributeID="CATID755"/>
+        <AttributeLink AttributeID="CATID752"/>
+        <AttributeLink AttributeID="Short Product Description"/>
+        <AttributeLink AttributeID="Product Sheet Text 7"/>
+        <AttributeLink AttributeID="Customer Catalogue ID"/>
+        <AttributeLink AttributeID="CATID748"/>
+        <AttributeLink AttributeID="PARTNOCAT_OWNER"/>
+        <AttributeLink AttributeID="OutletPPE"/>
+        <Tables/>
+        <Values/>
+        <Product ID="C" UserTypeID="Class1" Selected="false">
+          <Name>C - BYGG</Name>
+          <Tables/>
+          <Values/>
+          <Product ID="C10" UserTypeID="Class2" Selected="false">
+            <Name>C10 - BRUK</Name>
+            <Tables/>
+            <Values/>
+            <Product ID="C10A" UserTypeID="Class3" Selected="false">
+              <Name>C10A - BRUK</Name>
+              <Tables/>
+              <Values/>
+              <Product ID="C10AA" UserTypeID="Class4" Selected="false">
+                <Name>C10AA - TORRBRUK&amp;MURCEMENT</Name>
+                <ClassificationReference ClassificationID="10 2071534" Type="custRef"/>
+                <ClassificationReference ClassificationID="10 6140441" Type="custRef"/>
+                <ClassificationReference ClassificationID="10 6380392" Type="custRef"/>
+                <ClassificationReference ClassificationID="10 6400443" Type="custRef"/>
+                <ClassificationReference ClassificationID="10 6400543" Type="custRef"/>
+                <ClassificationReference ClassificationID="10 6410102" Type="custRef"/>
+                <ClassificationReference ClassificationID="10 6410102 Class4" Type="custRef"/>
+                <ClassificationReference ClassificationID="10 6410108" Type="custRef"/>
+                <ClassificationReference ClassificationID="10 6410110" Type="custRef"/>
+                <ClassificationReference ClassificationID="10 6410143" Type="custRef"/>
+                <ClassificationReference ClassificationID="10 6410154" Type="custRef"/>
+                <ClassificationReference ClassificationID="10 6410172" Type="custRef"/>
+                <ClassificationReference ClassificationID="10 6964435" Type="custRef"/>
+                <ClassificationReference ClassificationID="10 825109" Type="custRef"/>
+                <ClassificationReference ClassificationID="10 879004_20200602" Type="custRef"/>
+                <ClassificationReference ClassificationID="10 894000" Type="custRef"/>
+                <Values>
+                  <Value AttributeID="customerReferenceDelete">10 6772025</Value>
+                </Values>
+                <Tables/>
+                <Product ID="PC158249-C10AA" UserTypeID="ProductClass" Selected="false">
+                  <Name>Betong och putsbruk</Name>
+                  <AttributeLink AttributeID="AF000969_NUMBERRANGE">
+                    <MetaData>
+                      <Value AttributeID="Display Sequence">96</Value>
+                    </MetaData>
+                  </AttributeLink>
+                  <AttributeLink AttributeID="AF002522"/>
+                  <AttributeLink AttributeID="Calc-Product-Name"/>
+                  <AttributeLink AttributeID="AF999999"/>
+                  <AttributeLink AttributeID="AF001374"/>
+                  <AttributeLink AttributeID="AFF00661_NUMBERRANGE">
+                    <MetaData>
+                      <Value AttributeID="Display Sequence">93</Value>
+                    </MetaData>
+                  </AttributeLink>
+                  <AttributeLink AttributeID="AEF000008_NUMBERRANGE">
+                    <MetaData>
+                      <Value AttributeID="Display Sequence">40</Value>
+                    </MetaData>
+                  </AttributeLink>
+                  <AttributeLink AttributeID="AF001903"/>
+                  <AttributeLink AttributeID="AEF000880_NUMBERRANGE">
+                    <MetaData>
+                      <Value AttributeID="Display Sequence">97</Value>
+                      <Value AttributeID="Delete" ID="1">Yes</Value>
+                    </MetaData>
+                  </AttributeLink>
+                  <AttributeLink AttributeID="AEF001438_NUMBERRANGE">
+                    <MetaData>
+                      <Value AttributeID="Display Sequence">50</Value>
+                    </MetaData>
+                  </AttributeLink>
+                  <AttributeLink AttributeID="AF002085"/>
+                  <AttributeLink AttributeID="AF003120"/>
+                  <AttributeLink AttributeID="AEF001139">
+                    <MetaData>
+                      <Value AttributeID="MostImportant" ID="1">Yes</Value>
+                      <Value AttributeID="Display Sequence">99</Value>
+                    </MetaData>
+                  </AttributeLink>
+                  <AttributeLink AttributeID="AF003835">
+                    <MetaData>
+                      <Value AttributeID="Display Sequence">95</Value>
+                    </MetaData>
+                  </AttributeLink>
+                  <AttributeLink AttributeID="AF000140"/>
+                  <AttributeLink AttributeID="AF000316_OVR"/>
+                  <AttributeLink AttributeID="AF001151_NUMBERRANGE"/>
+                  <AttributeLink AttributeID="ETIM EF000041 5105">
+                    <MetaData>
+                      <Value AttributeID="Display Sequence">10</Value>
+                      <Value AttributeID="LinkedInFrom">ETIM EC000611</Value>
+                    </MetaData>
+                  </AttributeLink>
+                  <AttributeLink AttributeID="ETIM EF000732 R">
+                    <MetaData>
+                      <Value AttributeID="Display Sequence">20</Value>
+                      <Value AttributeID="LinkedInFrom">ETIM EC000611</Value>
+                    </MetaData>
+                  </AttributeLink>
+                  <AttributeLink AttributeID="ETIM EF008447 N">
+                    <MetaData>
+                      <Value AttributeID="Display Sequence">30</Value>
+                      <Value AttributeID="LinkedInFrom">ETIM EC000611</Value>
+                    </MetaData>
+                  </AttributeLink>
+                  <AttributeLink AttributeID="AEF000160_NUMBERRANGE">
+                    <MetaData>
+                      <Value AttributeID="Display Sequence">94</Value>
+                      <Value AttributeID="Delete" ID="2">No</Value>
+                    </MetaData>
+                  </AttributeLink>
+                  <AttributeLink AttributeID="AEF000167_NUMBERRANGE">
+                    <MetaData>
+                      <Value AttributeID="Display Sequence">98</Value>
+                    </MetaData>
+                  </AttributeLink>
+                  <AttributeLink AttributeID="AF000316_LOV"/>
+                  <AttributeLink AttributeID="AF000413_LOV"/>
+                  <ClassificationReference ClassificationID="7770142" Type="Primary Supplier">
+                    <MetaData>
+                      <Value AttributeID="Supplier ABC Categorization">C</Value>
+                    </MetaData>
+                  </ClassificationReference>
+                  <ClassificationReference ClassificationID="7773721" Type="Primary Supplier">
+                    <MetaData>
+                      <Value AttributeID="Supplier ABC Categorization">B</Value>
+                    </MetaData>
+                  </ClassificationReference>
+                  <ClassificationReference ClassificationID="7775246" Type="Primary Supplier">
+                    <MetaData>
+                      <Value AttributeID="Supplier ABC Categorization">A1</Value>
+                    </MetaData>
+                  </ClassificationReference>
+                  <Tables/>
+                  <Values/>
+                  <Product ID="P_27869302" UserTypeID="Ahlsell Product" Selected="false">
+                    <Name>Fasadnät</Name>
+                    <ClassificationReference ClassificationID="C158249" Type="Master Structure"/>
+                    <AssetCrossReference AssetID="27869310" Type="Primary Image"/>
+                    <Values>
+                      <Value AttributeID="Long Product Description">Svetsat och varmförzinkat stålnät.  &lt;br/&gt;Används till armering av puts samt som putsbärare. </Value>
+                      <Value AttributeID="Brand" ID="27104958">Finja</Value>
+                      <Value AttributeID="BluePath ID Calc" Derived="true">Product hierarchy root;Ahlsell Product Structure;C;C10;C10A;C10AA;PC158249-C10AA;P_27869302</Value>
+                    </Values>
+                    <Tables>
+                      <Table TableTypeID="stibo.162992394"/>
+                    </Tables>
+                    <Product ID="PIM27437206" UserTypeID="Item">
+                      <Name>569144</Name>
+                      <DeleteClassificationReference ClassificationID="10 6410161" Type="custRef"/>
+                      <ClassificationReference ClassificationID="10 8 CK2350" Type="Local Structure"/>
+                      <ClassificationReference ClassificationID="7775246" Type="Primary Supplier">
+                        <MetaData>
+                          <Value AttributeID="Supplier ABC Categorization">A1</Value>
+                          <Value AttributeID="Primary Supplier" ID="J">Yes</Value>
+                        </MetaData>
+                      </ClassificationReference>
+                      <ClassificationReference ClassificationID="10 382820" Type="custRef"/>
+                      <ClassificationReference ClassificationID="10 6403300" Type="custRef"/>
+                      <ClassificationReference ClassificationID="10 6410102" Type="custRef"/>
+                      <ClassificationReference ClassificationID="10 6410110" Type="custRef"/>
+                      <Values>
+                        <Value AttributeID="WEBSHOP" ID="J">Yes</Value>
+                        <Value AttributeID="AF000413_LOV" ID="5">Rulle</Value>
+                        <Value AttributeID="Item Display Position">1</Value>
+                        <Value AttributeID="AEF000008_NUMBERRANGE" UnitID="unece.unit.MMT">250-250</Value>
+                        <Value AttributeID="CATID165" ID="J">Yes</Value>
+                        <Value AttributeID="PARTDESCR1">FASADNÄT B:250 MM. 25 M/RLE</Value>
+                        <Value AttributeID="AF001151_NUMBERRANGE">1-1</Value>
+                        <Value AttributeID="CZAHLBRAND" ID="1">Inget varumärke</Value>
+                        <Value AttributeID="AF002522">Fasadnät</Value>
+                        <Value AttributeID="SALESSTOP_GLOBAL" ID="N">No</Value>
+                        <Value AttributeID="PARTNO">569144</Value>
+                        <Value AttributeID="CLASS8">10 8 CK2350</Value>
+                        <Value AttributeID="PARTNOCAT_NEW">569144</Value>
+                        <Value AttributeID="AEF001438_NUMBERRANGE" UnitID="unece.unit.MTR">25-25</Value>
+                        <Value AttributeID="VENDPARTNO">92208</Value>
+                        <MultiValue AttributeID="PackagingSizes">
+                          <Value>48</Value>
+                        </MultiValue>
+                        <Value AttributeID="BluePath ID Calc" Derived="true">Product hierarchy root;Ahlsell Product Structure;C;C10;C10A;C10AA;PC158249-C10AA;P_27869302;PIM27437206</Value>
+                        <Value AttributeID="Long Product Description" InheritedFrom="P_27869302">Svetsat och varmförzinkat stålnät.  &lt;br/&gt;Används till armering av puts samt som putsbärare. </Value>
+                        <Value AttributeID="Brand" ID="27104958" InheritedFrom="P_27869302">Finja</Value>
+                      </Values>
+                      <Tables/>
+                    </Product>
+                    <Product ID="PIM27437021" UserTypeID="Item">
+                      <Name>569145</Name>
+                      <DeleteClassificationReference ClassificationID="10 6410161" Type="custRef"/>
+                      <ClassificationReference ClassificationID="10 8 CK2350" Type="Local Structure"/>
+                      <ClassificationReference ClassificationID="7775246" Type="Primary Supplier">
+                        <MetaData>
+                          <Value AttributeID="Supplier ABC Categorization">A1</Value>
+                          <Value AttributeID="Primary Supplier" ID="J">Yes</Value>
+                        </MetaData>
+                      </ClassificationReference>
+                      <ClassificationReference ClassificationID="10 382820" Type="custRef"/>
+                      <ClassificationReference ClassificationID="10 6403300" Type="custRef"/>
+                      <ClassificationReference ClassificationID="10 6410102" Type="custRef"/>
+                      <ClassificationReference ClassificationID="10 6410110" Type="custRef"/>
+                      <Values>
+                        <Value AttributeID="WEBSHOP" ID="J">Yes</Value>
+                        <Value AttributeID="AF000413_LOV" ID="5">Rulle</Value>
+                        <Value AttributeID="Item Display Position">2</Value>
+                        <Value AttributeID="CATID165" ID="J">Yes</Value>
+                        <Value AttributeID="AEF000008_NUMBERRANGE" UnitID="unece.unit.MMT">1000-1000</Value>
+                        <Value AttributeID="PARTDESCR1">FASADNÄT B:1000 MM. 25 M/RLE</Value>
+                        <Value AttributeID="AF001151_NUMBERRANGE">1-1</Value>
+                        <Value AttributeID="CZAHLBRAND" ID="1">Inget varumärke</Value>
+                        <Value AttributeID="AF002522">Fasadnät</Value>
+                        <Value AttributeID="SALESSTOP_GLOBAL" ID="N">No</Value>
+                        <Value AttributeID="PARTNO">569145</Value>
+                        <Value AttributeID="PARTNOCAT_NEW">569145</Value>
+                        <Value AttributeID="CLASS8">10 8 CK2350</Value>
+                        <Value AttributeID="AEF001438_NUMBERRANGE" UnitID="unece.unit.MTR">25-25</Value>
+                        <Value AttributeID="VENDPARTNO">92202</Value>
+                        <MultiValue AttributeID="PackagingSizes">
+                          <Value>12</Value>
+                        </MultiValue>
+                        <Value AttributeID="BluePath ID Calc" Derived="true">Product hierarchy root;Ahlsell Product Structure;C;C10;C10A;C10AA;PC158249-C10AA;P_27869302;PIM27437021</Value>
+                        <Value AttributeID="Long Product Description" InheritedFrom="P_27869302">Svetsat och varmförzinkat stålnät.  &lt;br/&gt;Används till armering av puts samt som putsbärare. </Value>
+                        <Value AttributeID="Brand" ID="27104958" InheritedFrom="P_27869302">Finja</Value>
+                      </Values>
+                      <Tables/>
+                    </Product>
+                  </Product>
+                </Product>
+              </Product>
+            </Product>
+            <Product ID="C10AF" UserTypeID="Class4" Selected="false">
+              <Name>C10AF - TÄTSYSTEM, VÅTRUM</Name>
+              <ClassificationReference ClassificationID="10 2071534" Type="custRef"/>
+              <ClassificationReference ClassificationID="10 6140441" Type="custRef"/>
+              <ClassificationReference ClassificationID="10 6380392" Type="custRef"/>
+              <ClassificationReference ClassificationID="10 6400443" Type="custRef"/>
+              <ClassificationReference ClassificationID="10 6400543" Type="custRef"/>
+              <ClassificationReference ClassificationID="10 6410102" Type="custRef"/>
+              <ClassificationReference ClassificationID="10 6410102 Class4" Type="custRef"/>
+              <ClassificationReference ClassificationID="10 6410108" Type="custRef"/>
+              <ClassificationReference ClassificationID="10 6410110" Type="custRef"/>
+              <ClassificationReference ClassificationID="10 6410143" Type="custRef"/>
+              <ClassificationReference ClassificationID="10 6410154" Type="custRef"/>
+              <ClassificationReference ClassificationID="10 6410172" Type="custRef"/>
+              <ClassificationReference ClassificationID="10 6964435" Type="custRef"/>
+              <ClassificationReference ClassificationID="10 825109" Type="custRef"/>
+              <ClassificationReference ClassificationID="10 879004_20200602" Type="custRef"/>
+              <ClassificationReference ClassificationID="10 894000" Type="custRef"/>
+              <Tables/>
+              <Values/>
+              <Product ID="PC_25117331" UserTypeID="ProductClass" Selected="false">
+                <Name>Tätsystem - Våtrum</Name>
+                <AttributeLink AttributeID="AEF000880_NUMBERRANGE">
+                  <MetaData>
+                    <Value AttributeID="Display Sequence">20</Value>
+                  </MetaData>
+                </AttributeLink>
+                <AttributeLink AttributeID="AEF000007">
+                  <MetaData>
+                    <Value AttributeID="Display Sequence">60</Value>
+                  </MetaData>
+                </AttributeLink>
+                <AttributeLink AttributeID="AEF000167_NUMBERRANGE">
+                  <MetaData>
+                    <Value AttributeID="Display Sequence">10</Value>
+                  </MetaData>
+                </AttributeLink>
+                <AttributeLink AttributeID="AEF000008_NUMBERRANGE">
+                  <MetaData>
+                    <Value AttributeID="Display Sequence">40</Value>
+                  </MetaData>
+                </AttributeLink>
+                <AttributeLink AttributeID="AEF000551_NUMBERRANGE">
+                  <MetaData>
+                    <Value AttributeID="Display Sequence">50</Value>
+                  </MetaData>
+                </AttributeLink>
+                <AttributeLink AttributeID="AEF001438_NUMBERRANGE">
+                  <MetaData>
+                    <Value AttributeID="Display Sequence">30</Value>
+                  </MetaData>
+                </AttributeLink>
+                <ClassificationReference ClassificationID="7775246" Type="Primary Supplier">
+                  <MetaData>
+                    <Value AttributeID="Supplier ABC Categorization">A1</Value>
+                  </MetaData>
+                </ClassificationReference>
+                <Tables/>
+                <Values/>
+                <Product ID="P_25117502" UserTypeID="Ahlsell Product" Selected="false">
+                  <Name>Tätduk</Name>
+                  <ClassificationReference ClassificationID="MSLevel3_26264944" Type="Master Structure"/>
+                  <AssetCrossReference AssetID="25120332" Type="Primary Image"/>
+                  <Values>
+                    <Value AttributeID="Long Product Description">Används till tätning av golv och vägg i våtrum och utrymmen med liknande belastningar. &lt;br/&gt;Det är en sandwichkonstruktion bestående av två yttre lager polypropylenväv med en inre kärna av vatten- och ångtät polyetenfilm. &lt;br/&gt;Ingår i vårt dukbaserade tätsystem.</Value>
+                    <Value AttributeID="Short Product Description">Används till tätning av golv och vägg i våtrum och utrymmen med liknande belastningar.</Value>
+                    <Value AttributeID="Brand" ID="27104958">Finja</Value>
+                    <Value AttributeID="BluePath ID Calc" Derived="true">Product hierarchy root;Ahlsell Product Structure;C;C10;C10A;C10AF;PC_25117331;P_25117502</Value>
+                  </Values>
+                  <Tables>
+                    <Table TableTypeID="stibo.162992394"/>
+                  </Tables>
+                  <Product ID="PIM25114310" UserTypeID="Item">
+                    <Name>402986</Name>
+                    <DeleteClassificationReference ClassificationID="10 6410161" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 8 CK1950" Type="Local Structure"/>
+                    <ClassificationReference ClassificationID="7775246" Type="Primary Supplier">
+                      <MetaData>
+                        <Value AttributeID="Supplier ABC Categorization">A1</Value>
+                        <Value AttributeID="Primary Supplier" ID="J">Yes</Value>
+                      </MetaData>
+                    </ClassificationReference>
+                    <ClassificationReference ClassificationID="10 382820" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6010" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6400870" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6403300" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6410102" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6410110" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 879004" Type="custRef"/>
+                    <Values>
+                      <Value AttributeID="WEBSHOP" ID="J">Yes</Value>
+                      <Value AttributeID="AF000413_LOV" ID="6">ST</Value>
+                      <Value AttributeID="Item Display Position">1</Value>
+                      <Value AttributeID="CATID165" ID="J">Yes</Value>
+                      <Value AttributeID="AEF000008_NUMBERRANGE" UnitID="unece.unit.MTR">0.75-0.75</Value>
+                      <Value AttributeID="PARTDESCR1">TÄTDUK FINJA 075X10 M</Value>
+                      <Value AttributeID="AF001151_NUMBERRANGE">1-1</Value>
+                      <Value AttributeID="CZAHLBRAND" ID="1">Inget varumärke</Value>
+                      <Value AttributeID="AF002522">Tätduk</Value>
+                      <Value AttributeID="SALESSTOP_GLOBAL" ID="N">No</Value>
+                      <Value AttributeID="PARTNO">402986</Value>
+                      <Value AttributeID="PARTNOCAT_NEW">402986</Value>
+                      <Value AttributeID="CLASS8">10 8 CK1950</Value>
+                      <Value AttributeID="AEF001438_NUMBERRANGE" UnitID="unece.unit.MTR">10-10</Value>
+                      <Value AttributeID="VENDPARTNO">705022</Value>
+                      <Value AttributeID="customerReferenceDelete">10 6400543</Value>
+                      <MultiValue AttributeID="Customer Catalogue ID">
+                        <Value>10 879 004</Value>
+                      </MultiValue>
+                      <Value AttributeID="BluePath ID Calc" Derived="true">Product hierarchy root;Ahlsell Product Structure;C;C10;C10A;C10AF;PC_25117331;P_25117502;PIM25114310</Value>
+                      <Value AttributeID="Long Product Description" InheritedFrom="P_25117502">Används till tätning av golv och vägg i våtrum och utrymmen med liknande belastningar. &lt;br/&gt;Det är en sandwichkonstruktion bestående av två yttre lager polypropylenväv med en inre kärna av vatten- och ångtät polyetenfilm. &lt;br/&gt;Ingår i vårt dukbaserade tätsystem.</Value>
+                      <Value AttributeID="Short Product Description" InheritedFrom="P_25117502">Används till tätning av golv och vägg i våtrum och utrymmen med liknande belastningar.</Value>
+                      <Value AttributeID="Brand" ID="27104958" InheritedFrom="P_25117502">Finja</Value>
+                    </Values>
+                    <Tables/>
+                  </Product>
+                  <Product ID="PIM25114336" UserTypeID="Item">
+                    <Name>402985</Name>
+                    <DeleteClassificationReference ClassificationID="10 6410161" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 8 CK1950" Type="Local Structure"/>
+                    <ClassificationReference ClassificationID="7775246" Type="Primary Supplier">
+                      <MetaData>
+                        <Value AttributeID="Supplier ABC Categorization">A1</Value>
+                        <Value AttributeID="Primary Supplier" ID="J">Yes</Value>
+                      </MetaData>
+                    </ClassificationReference>
+                    <ClassificationReference ClassificationID="10 382820" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6010" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6400870" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6403300" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6410102" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6410110" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 879004" Type="custRef"/>
+                    <Values>
+                      <Value AttributeID="WEBSHOP" ID="J">Yes</Value>
+                      <Value AttributeID="AF000413_LOV" ID="6">ST</Value>
+                      <Value AttributeID="Item Display Position">2</Value>
+                      <Value AttributeID="AEF000008_NUMBERRANGE" UnitID="unece.unit.MTR">0.75-0.75</Value>
+                      <Value AttributeID="CATID165" ID="J">Yes</Value>
+                      <Value AttributeID="PARTDESCR1">TÄTDUK FINJA 075X30 M</Value>
+                      <Value AttributeID="AF001151_NUMBERRANGE">1-1</Value>
+                      <Value AttributeID="CZAHLBRAND" ID="1">Inget varumärke</Value>
+                      <Value AttributeID="AF002522">Tätduk</Value>
+                      <Value AttributeID="SALESSTOP_GLOBAL" ID="N">No</Value>
+                      <Value AttributeID="PARTNO">402985</Value>
+                      <Value AttributeID="CLASS8">10 8 CK1950</Value>
+                      <Value AttributeID="PARTNOCAT_NEW">402985</Value>
+                      <Value AttributeID="AEF001438_NUMBERRANGE" UnitID="unece.unit.MTR">30-30</Value>
+                      <Value AttributeID="VENDPARTNO">705024</Value>
+                      <Value AttributeID="customerReferenceDelete">10 6400543</Value>
+                      <MultiValue AttributeID="Customer Catalogue ID">
+                        <Value>10 879 004</Value>
+                      </MultiValue>
+                      <Value AttributeID="BluePath ID Calc" Derived="true">Product hierarchy root;Ahlsell Product Structure;C;C10;C10A;C10AF;PC_25117331;P_25117502;PIM25114336</Value>
+                      <Value AttributeID="Long Product Description" InheritedFrom="P_25117502">Används till tätning av golv och vägg i våtrum och utrymmen med liknande belastningar. &lt;br/&gt;Det är en sandwichkonstruktion bestående av två yttre lager polypropylenväv med en inre kärna av vatten- och ångtät polyetenfilm. &lt;br/&gt;Ingår i vårt dukbaserade tätsystem.</Value>
+                      <Value AttributeID="Short Product Description" InheritedFrom="P_25117502">Används till tätning av golv och vägg i våtrum och utrymmen med liknande belastningar.</Value>
+                      <Value AttributeID="Brand" ID="27104958" InheritedFrom="P_25117502">Finja</Value>
+                    </Values>
+                    <Tables/>
+                  </Product>
+                </Product>
+                <Product ID="P_25117503" UserTypeID="Ahlsell Product" Selected="false">
+                  <Name>Tätband</Name>
+                  <ClassificationReference ClassificationID="MSLevel3_26264944" Type="Master Structure"/>
+                  <AssetCrossReference AssetID="25120343" Type="Primary Image"/>
+                  <Values>
+                    <Value AttributeID="Long Product Description">Flexibelt tätband för golv- och väggvinklar.</Value>
+                    <Value AttributeID="Short Product Description">Flexibelt tätband för golv- och väggvinklar.</Value>
+                    <Value AttributeID="Brand" ID="27104958">Finja</Value>
+                    <Value AttributeID="BluePath ID Calc" Derived="true">Product hierarchy root;Ahlsell Product Structure;C;C10;C10A;C10AF;PC_25117331;P_25117503</Value>
+                  </Values>
+                  <Tables>
+                    <Table TableTypeID="stibo.162992394"/>
+                  </Tables>
+                  <Product ID="PIM25114264" UserTypeID="Item">
+                    <Name>402999</Name>
+                    <DeleteClassificationReference ClassificationID="10 6410161" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 8 CK1950" Type="Local Structure"/>
+                    <ClassificationReference ClassificationID="7775246" Type="Primary Supplier">
+                      <MetaData>
+                        <Value AttributeID="Supplier ABC Categorization">A1</Value>
+                        <Value AttributeID="Primary Supplier" ID="J">Yes</Value>
+                      </MetaData>
+                    </ClassificationReference>
+                    <ClassificationReference ClassificationID="10 382820" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6010" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6400870" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6403300" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6410102" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6410110" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 879004" Type="custRef"/>
+                    <Values>
+                      <Value AttributeID="WEBSHOP" ID="J">Yes</Value>
+                      <Value AttributeID="AF000413_LOV" ID="6">ST</Value>
+                      <Value AttributeID="Item Display Position">1</Value>
+                      <Value AttributeID="AEF000008_NUMBERRANGE" UnitID="unece.unit.MMT">100-100</Value>
+                      <Value AttributeID="CATID165" ID="J">Yes</Value>
+                      <Value AttributeID="PARTDESCR1">TÄTBAND FINJA 100 MMX15 M</Value>
+                      <Value AttributeID="AF001151_NUMBERRANGE">1-1</Value>
+                      <Value AttributeID="PARTDESCR2">SJÄLVHÄFTANDE 6 ST/FRP</Value>
+                      <Value AttributeID="CZAHLBRAND" ID="1">Inget varumärke</Value>
+                      <Value AttributeID="AF002522">Tätband</Value>
+                      <Value AttributeID="SALESSTOP_GLOBAL" ID="N">No</Value>
+                      <Value AttributeID="PARTNO">402999</Value>
+                      <Value AttributeID="CLASS8">10 8 CK1950</Value>
+                      <Value AttributeID="PARTNOCAT_NEW">402999</Value>
+                      <Value AttributeID="AEF001438_NUMBERRANGE" UnitID="unece.unit.MTR">15-15</Value>
+                      <Value AttributeID="VENDPARTNO">705030</Value>
+                      <MultiValue AttributeID="PackagingSizes">
+                        <Value>12</Value>
+                      </MultiValue>
+                      <Value AttributeID="customerReferenceDelete">10 6400543</Value>
+                      <MultiValue AttributeID="Customer Catalogue ID">
+                        <Value>10 879 004</Value>
+                      </MultiValue>
+                      <Value AttributeID="BluePath ID Calc" Derived="true">Product hierarchy root;Ahlsell Product Structure;C;C10;C10A;C10AF;PC_25117331;P_25117503;PIM25114264</Value>
+                      <Value AttributeID="Long Product Description" InheritedFrom="P_25117503">Flexibelt tätband för golv- och väggvinklar.</Value>
+                      <Value AttributeID="Short Product Description" InheritedFrom="P_25117503">Flexibelt tätband för golv- och väggvinklar.</Value>
+                      <Value AttributeID="Brand" ID="27104958" InheritedFrom="P_25117503">Finja</Value>
+                    </Values>
+                    <Tables/>
+                  </Product>
+                </Product>
+                <Product ID="P_25117509" UserTypeID="Ahlsell Product" Selected="false">
+                  <Name>Rörmanschett</Name>
+                  <ClassificationReference ClassificationID="MSLevel3_26264944" Type="Master Structure"/>
+                  <AssetCrossReference AssetID="ProductImage28887485" Type="Primary Image"/>
+                  <Values>
+                    <Value AttributeID="Long Product Description">Rörmanschett för vattenledningar.</Value>
+                    <Value AttributeID="Short Product Description">Rörmanschett för vattenledningar.</Value>
+                    <Value AttributeID="Brand" ID="27104958">Finja</Value>
+                    <Value AttributeID="BluePath ID Calc" Derived="true">Product hierarchy root;Ahlsell Product Structure;C;C10;C10A;C10AF;PC_25117331;P_25117509</Value>
+                  </Values>
+                  <Tables>
+                    <Table TableTypeID="stibo.162992394"/>
+                  </Tables>
+                  <Product ID="PIM25114112" UserTypeID="Item">
+                    <Name>402997</Name>
+                    <DeleteClassificationReference ClassificationID="10 6410161" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 8 CK1950" Type="Local Structure"/>
+                    <ClassificationReference ClassificationID="7775246" Type="Primary Supplier">
+                      <MetaData>
+                        <Value AttributeID="Supplier ABC Categorization">A1</Value>
+                        <Value AttributeID="Primary Supplier" ID="J">Yes</Value>
+                      </MetaData>
+                    </ClassificationReference>
+                    <ClassificationReference ClassificationID="10 382820" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6010" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6400870" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6403300" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6410102" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6410110" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 879004" Type="custRef"/>
+                    <Values>
+                      <Value AttributeID="WEBSHOP" ID="J">Yes</Value>
+                      <Value AttributeID="AF000413_LOV" ID="6">ST</Value>
+                      <Value AttributeID="Item Display Position">3</Value>
+                      <Value AttributeID="CATID165" ID="J">Yes</Value>
+                      <Value AttributeID="PARTDESCR1">RÖRMANSCHETT FINJA 80-140 MM</Value>
+                      <Value AttributeID="AF001151_NUMBERRANGE">1-1</Value>
+                      <Value AttributeID="PARTDESCR2">20 ST/FRP</Value>
+                      <Value AttributeID="CZAHLBRAND" ID="1">Inget varumärke</Value>
+                      <Value AttributeID="AF002522">Rörmanschett</Value>
+                      <Value AttributeID="SALESSTOP_GLOBAL" ID="N">No</Value>
+                      <Value AttributeID="PARTNO">402997</Value>
+                      <Value AttributeID="CLASS8">10 8 CK1950</Value>
+                      <Value AttributeID="PARTNOCAT_NEW">402997</Value>
+                      <Value AttributeID="VENDPARTNO">705018</Value>
+                      <MultiValue AttributeID="PackagingSizes">
+                        <Value>20</Value>
+                      </MultiValue>
+                      <Value AttributeID="AEF000551_NUMBERRANGE" UnitID="unece.unit.MMT">80-140</Value>
+                      <Value AttributeID="customerReferenceDelete">10 6400543</Value>
+                      <MultiValue AttributeID="Customer Catalogue ID">
+                        <Value>10 879 004</Value>
+                      </MultiValue>
+                      <Value AttributeID="BluePath ID Calc" Derived="true">Product hierarchy root;Ahlsell Product Structure;C;C10;C10A;C10AF;PC_25117331;P_25117509;PIM25114112</Value>
+                      <Value AttributeID="Long Product Description" InheritedFrom="P_25117509">Rörmanschett för vattenledningar.</Value>
+                      <Value AttributeID="Short Product Description" InheritedFrom="P_25117509">Rörmanschett för vattenledningar.</Value>
+                      <Value AttributeID="Brand" ID="27104958" InheritedFrom="P_25117509">Finja</Value>
+                    </Values>
+                    <Tables/>
+                  </Product>
+                </Product>
+                <Product ID="P_25117513" UserTypeID="Ahlsell Product" Selected="false">
+                  <Name>Brunnsmanchett</Name>
+                  <ClassificationReference ClassificationID="MSLevel3_26264944" Type="Master Structure"/>
+                  <AssetCrossReference AssetID="25144550" Type="Primary Image"/>
+                  <Values>
+                    <Value AttributeID="Long Product Description">För försegling av golvbrunn.</Value>
+                    <Value AttributeID="Short Product Description">För försegling av golvbrunn.</Value>
+                    <Value AttributeID="Brand" ID="27104958">Finja</Value>
+                    <Value AttributeID="BluePath ID Calc" Derived="true">Product hierarchy root;Ahlsell Product Structure;C;C10;C10A;C10AF;PC_25117331;P_25117513</Value>
+                  </Values>
+                  <Tables>
+                    <Table TableTypeID="stibo.162992394"/>
+                  </Tables>
+                  <Product ID="PIM25114181" UserTypeID="Item">
+                    <Name>402991</Name>
+                    <DeleteClassificationReference ClassificationID="10 6410161" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 8 CK1950" Type="Local Structure"/>
+                    <ClassificationReference ClassificationID="7775246" Type="Primary Supplier">
+                      <MetaData>
+                        <Value AttributeID="Supplier ABC Categorization">A1</Value>
+                        <Value AttributeID="Primary Supplier" ID="J">Yes</Value>
+                      </MetaData>
+                    </ClassificationReference>
+                    <ClassificationReference ClassificationID="10 382820" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6010" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6400870" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6403300" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6410102" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6410110" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 879004" Type="custRef"/>
+                    <Values>
+                      <Value AttributeID="WEBSHOP" ID="J">Yes</Value>
+                      <Value AttributeID="AF000413_LOV" ID="6">ST</Value>
+                      <Value AttributeID="Item Display Position">1</Value>
+                      <Value AttributeID="CATID165" ID="J">Yes</Value>
+                      <Value AttributeID="PARTDESCR1">BRUNNSMANSCHETT FINJA</Value>
+                      <Value AttributeID="AF001151_NUMBERRANGE">1-1</Value>
+                      <Value AttributeID="PARTDESCR2">ENKELKLISTRAD 20 ST/FRP</Value>
+                      <Value AttributeID="CZAHLBRAND" ID="1">Inget varumärke</Value>
+                      <Value AttributeID="AF002522">Brunnsmanschett</Value>
+                      <Value AttributeID="SALESSTOP_GLOBAL" ID="N">No</Value>
+                      <Value AttributeID="PARTNO">402991</Value>
+                      <Value AttributeID="PARTNOCAT_NEW">402991</Value>
+                      <Value AttributeID="CLASS8">10 8 CK1950</Value>
+                      <Value AttributeID="VENDPARTNO">705026</Value>
+                      <MultiValue AttributeID="PackagingSizes">
+                        <Value>20</Value>
+                      </MultiValue>
+                      <Value AttributeID="customerReferenceDelete">10 6400543</Value>
+                      <MultiValue AttributeID="Customer Catalogue ID">
+                        <Value>10 879 004</Value>
+                      </MultiValue>
+                      <Value AttributeID="BluePath ID Calc" Derived="true">Product hierarchy root;Ahlsell Product Structure;C;C10;C10A;C10AF;PC_25117331;P_25117513;PIM25114181</Value>
+                      <Value AttributeID="Long Product Description" InheritedFrom="P_25117513">För försegling av golvbrunn.</Value>
+                      <Value AttributeID="Short Product Description" InheritedFrom="P_25117513">För försegling av golvbrunn.</Value>
+                      <Value AttributeID="Brand" ID="27104958" InheritedFrom="P_25117513">Finja</Value>
+                    </Values>
+                    <Tables/>
+                  </Product>
+                  <Product ID="PIM25114182" UserTypeID="Item">
+                    <Name>402992</Name>
+                    <DeleteClassificationReference ClassificationID="10 6410161" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 8 CK1950" Type="Local Structure"/>
+                    <ClassificationReference ClassificationID="7775246" Type="Primary Supplier">
+                      <MetaData>
+                        <Value AttributeID="Supplier ABC Categorization">A1</Value>
+                        <Value AttributeID="Primary Supplier" ID="J">Yes</Value>
+                      </MetaData>
+                    </ClassificationReference>
+                    <ClassificationReference ClassificationID="10 382820" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6010" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6400870" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6403300" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6410102" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6410110" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 879004" Type="custRef"/>
+                    <AssetCrossReference AssetID="27479808" Type="Primary Image"/>
+                    <Values>
+                      <Value AttributeID="WEBSHOP" ID="J">Yes</Value>
+                      <Value AttributeID="AF000413_LOV" ID="6">ST</Value>
+                      <Value AttributeID="Item Display Position">2</Value>
+                      <Value AttributeID="CATID165" ID="J">Yes</Value>
+                      <Value AttributeID="PARTDESCR1">BRUNNSMANSCHETT FINJA</Value>
+                      <Value AttributeID="AF001151_NUMBERRANGE">1-1</Value>
+                      <Value AttributeID="PARTDESCR2">RUND 20 ST/FRP</Value>
+                      <Value AttributeID="CZAHLBRAND" ID="1">Inget varumärke</Value>
+                      <Value AttributeID="AF002522">Brunnsmanschett Rund</Value>
+                      <Value AttributeID="SALESSTOP_GLOBAL" ID="N">No</Value>
+                      <Value AttributeID="PARTNO">402992</Value>
+                      <Value AttributeID="Short Product Description">För försegling av golvbrunn.</Value>
+                      <Value AttributeID="PARTNOCAT_NEW">402992</Value>
+                      <Value AttributeID="CLASS8">10 8 CK1950</Value>
+                      <Value AttributeID="VENDPARTNO">705029</Value>
+                      <MultiValue AttributeID="PackagingSizes">
+                        <Value>20</Value>
+                      </MultiValue>
+                      <Value AttributeID="customerReferenceDelete">10 6400543</Value>
+                      <MultiValue AttributeID="Customer Catalogue ID">
+                        <Value>10 879 004</Value>
+                      </MultiValue>
+                      <Value AttributeID="BluePath ID Calc" Derived="true">Product hierarchy root;Ahlsell Product Structure;C;C10;C10A;C10AF;PC_25117331;P_25117513;PIM25114182</Value>
+                      <Value AttributeID="Long Product Description" InheritedFrom="P_25117513">För försegling av golvbrunn.</Value>
+                      <Value AttributeID="Brand" ID="27104958" InheritedFrom="P_25117513">Finja</Value>
+                    </Values>
+                    <Tables/>
+                  </Product>
+                </Product>
+                <Product ID="P_25117519" UserTypeID="Ahlsell Product" Selected="false">
+                  <Name>Ytterhörnsmanchett</Name>
+                  <ClassificationReference ClassificationID="MSLevel3_26264944" Type="Master Structure"/>
+                  <AssetCrossReference AssetID="25120336" Type="Primary Image"/>
+                  <Values>
+                    <Value AttributeID="Long Product Description">För försegling av ytterhörn.</Value>
+                    <Value AttributeID="Brand" ID="27104958">Finja</Value>
+                    <Value AttributeID="BluePath ID Calc" Derived="true">Product hierarchy root;Ahlsell Product Structure;C;C10;C10A;C10AF;PC_25117331;P_25117519</Value>
+                  </Values>
+                  <Tables>
+                    <Table TableTypeID="stibo.162992394"/>
+                  </Tables>
+                  <Product ID="PIM25114049" UserTypeID="Item">
+                    <Name>402990</Name>
+                    <DeleteClassificationReference ClassificationID="10 6410161" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 8 CK1950" Type="Local Structure"/>
+                    <ClassificationReference ClassificationID="7775246" Type="Primary Supplier">
+                      <MetaData>
+                        <Value AttributeID="Supplier ABC Categorization">A1</Value>
+                        <Value AttributeID="Primary Supplier" ID="J">Yes</Value>
+                      </MetaData>
+                    </ClassificationReference>
+                    <ClassificationReference ClassificationID="10 382820" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6010" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6400870" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6403300" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6410102" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6410110" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 879004" Type="custRef"/>
+                    <Values>
+                      <Value AttributeID="WEBSHOP" ID="J">Yes</Value>
+                      <Value AttributeID="AF000413_LOV" ID="6">ST</Value>
+                      <Value AttributeID="Item Display Position">1</Value>
+                      <Value AttributeID="CATID165" ID="J">Yes</Value>
+                      <Value AttributeID="PARTDESCR1">YTTERHÖRNSMANSCHETT FINJA</Value>
+                      <Value AttributeID="AF001151_NUMBERRANGE">1-1</Value>
+                      <Value AttributeID="PARTDESCR2">20 ST/FRP</Value>
+                      <Value AttributeID="CZAHLBRAND" ID="1">Inget varumärke</Value>
+                      <Value AttributeID="AF002522">Ytterhörnsmanschett</Value>
+                      <Value AttributeID="SALESSTOP_GLOBAL" ID="N">No</Value>
+                      <Value AttributeID="PARTNO">402990</Value>
+                      <Value AttributeID="CLASS8">10 8 CK1950</Value>
+                      <Value AttributeID="PARTNOCAT_NEW">402990</Value>
+                      <Value AttributeID="VENDPARTNO">705006</Value>
+                      <MultiValue AttributeID="PackagingSizes">
+                        <Value>20</Value>
+                      </MultiValue>
+                      <Value AttributeID="customerReferenceDelete">10 6400543</Value>
+                      <MultiValue AttributeID="Customer Catalogue ID">
+                        <Value>10 879 004</Value>
+                      </MultiValue>
+                      <Value AttributeID="BluePath ID Calc" Derived="true">Product hierarchy root;Ahlsell Product Structure;C;C10;C10A;C10AF;PC_25117331;P_25117519;PIM25114049</Value>
+                      <Value AttributeID="Long Product Description" InheritedFrom="P_25117519">För försegling av ytterhörn.</Value>
+                      <Value AttributeID="Brand" ID="27104958" InheritedFrom="P_25117519">Finja</Value>
+                    </Values>
+                    <Tables/>
+                  </Product>
+                </Product>
+                <Product ID="P_25117522" UserTypeID="Ahlsell Product" Selected="false">
+                  <Name>Tätmembran</Name>
+                  <ClassificationReference ClassificationID="MSLevel3_26264944" Type="Master Structure"/>
+                  <AssetCrossReference AssetID="25120347" Type="Primary Image"/>
+                  <Values>
+                    <Value AttributeID="Long Product Description">Färdigblandat och deformationsupptagande tätmembran för våtutrymmen.</Value>
+                    <Value AttributeID="Short Product Description">Färdigblandat och deformationsupptagande tätmembran för våtutrymmen.</Value>
+                    <Value AttributeID="Brand" ID="27104958">Finja</Value>
+                    <Value AttributeID="BluePath ID Calc" Derived="true">Product hierarchy root;Ahlsell Product Structure;C;C10;C10A;C10AF;PC_25117331;P_25117522</Value>
+                  </Values>
+                  <Tables>
+                    <Table TableTypeID="stibo.162992394"/>
+                  </Tables>
+                  <Product ID="PIM25114265" UserTypeID="Item">
+                    <Name>474801</Name>
+                    <DeleteClassificationReference ClassificationID="10 6410161" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 8 CK1950" Type="Local Structure"/>
+                    <ClassificationReference ClassificationID="7775246" Type="Primary Supplier">
+                      <MetaData>
+                        <Value AttributeID="Supplier ABC Categorization">A1</Value>
+                        <Value AttributeID="Primary Supplier" ID="J">Yes</Value>
+                      </MetaData>
+                    </ClassificationReference>
+                    <ClassificationReference ClassificationID="10 382820" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6010" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6400870" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6403300" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6410102" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6410110" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 879004" Type="custRef"/>
+                    <Values>
+                      <Value AttributeID="WEBSHOP" ID="J">Yes</Value>
+                      <Value AttributeID="AF000413_LOV" ID="6">ST</Value>
+                      <Value AttributeID="Item Display Position">1</Value>
+                      <Value AttributeID="CATID165" ID="J">Yes</Value>
+                      <Value AttributeID="PARTDESCR1">TÄTMEMBRAN FINJA 8 KG</Value>
+                      <Value AttributeID="AF001151_NUMBERRANGE">1-1</Value>
+                      <Value AttributeID="CZAHLBRAND" ID="1">Inget varumärke</Value>
+                      <Value AttributeID="AF002522">Tätmembran</Value>
+                      <Value AttributeID="SALESSTOP_GLOBAL" ID="N">No</Value>
+                      <Value AttributeID="PARTNO">474801</Value>
+                      <Value AttributeID="AEF000167_NUMBERRANGE" UnitID="unece.unit.KGM">8-8</Value>
+                      <Value AttributeID="PARTNOCAT_NEW">474801</Value>
+                      <Value AttributeID="CLASS8">10 8 CK1950</Value>
+                      <Value AttributeID="VENDPARTNO">704108</Value>
+                      <Value AttributeID="customerReferenceDelete">10 6772025</Value>
+                      <MultiValue AttributeID="Customer Catalogue ID">
+                        <Value>10 879 004</Value>
+                      </MultiValue>
+                      <Value AttributeID="BluePath ID Calc" Derived="true">Product hierarchy root;Ahlsell Product Structure;C;C10;C10A;C10AF;PC_25117331;P_25117522;PIM25114265</Value>
+                      <Value AttributeID="Long Product Description" InheritedFrom="P_25117522">Färdigblandat och deformationsupptagande tätmembran för våtutrymmen.</Value>
+                      <Value AttributeID="Short Product Description" InheritedFrom="P_25117522">Färdigblandat och deformationsupptagande tätmembran för våtutrymmen.</Value>
+                      <Value AttributeID="Brand" ID="27104958" InheritedFrom="P_25117522">Finja</Value>
+                    </Values>
+                    <Tables/>
+                  </Product>
+                  <Product ID="PIM25114309" UserTypeID="Item">
+                    <Name>474802</Name>
+                    <DeleteClassificationReference ClassificationID="10 6410161" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 8 CK1950" Type="Local Structure"/>
+                    <ClassificationReference ClassificationID="7775246" Type="Primary Supplier">
+                      <MetaData>
+                        <Value AttributeID="Supplier ABC Categorization">A1</Value>
+                        <Value AttributeID="Primary Supplier" ID="J">Yes</Value>
+                      </MetaData>
+                    </ClassificationReference>
+                    <ClassificationReference ClassificationID="10 382820" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6010" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6400870" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6403300" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6410102" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6410110" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 879004" Type="custRef"/>
+                    <Values>
+                      <Value AttributeID="WEBSHOP" ID="J">Yes</Value>
+                      <Value AttributeID="AF000413_LOV" ID="6">ST</Value>
+                      <Value AttributeID="Item Display Position">2</Value>
+                      <Value AttributeID="CATID165" ID="J">Yes</Value>
+                      <Value AttributeID="PARTDESCR1">TÄTMEMBRAN FINJA 16 KG</Value>
+                      <Value AttributeID="AF001151_NUMBERRANGE">1-1</Value>
+                      <Value AttributeID="CZAHLBRAND" ID="1">Inget varumärke</Value>
+                      <Value AttributeID="AF002522">Tätmembran</Value>
+                      <Value AttributeID="SALESSTOP_GLOBAL" ID="N">No</Value>
+                      <Value AttributeID="PARTNO">474802</Value>
+                      <Value AttributeID="AEF000167_NUMBERRANGE" UnitID="unece.unit.KGM">16-16</Value>
+                      <Value AttributeID="PARTNOCAT_NEW">474802</Value>
+                      <Value AttributeID="CLASS8">10 8 CK1950</Value>
+                      <Value AttributeID="VENDPARTNO">704116</Value>
+                      <Value AttributeID="customerReferenceDelete">10 6772025</Value>
+                      <MultiValue AttributeID="Customer Catalogue ID">
+                        <Value>10 879 004</Value>
+                      </MultiValue>
+                      <Value AttributeID="BluePath ID Calc" Derived="true">Product hierarchy root;Ahlsell Product Structure;C;C10;C10A;C10AF;PC_25117331;P_25117522;PIM25114309</Value>
+                      <Value AttributeID="Long Product Description" InheritedFrom="P_25117522">Färdigblandat och deformationsupptagande tätmembran för våtutrymmen.</Value>
+                      <Value AttributeID="Short Product Description" InheritedFrom="P_25117522">Färdigblandat och deformationsupptagande tätmembran för våtutrymmen.</Value>
+                      <Value AttributeID="Brand" ID="27104958" InheritedFrom="P_25117522">Finja</Value>
+                    </Values>
+                    <Tables/>
+                  </Product>
+                </Product>
+                <Product ID="P_25117524" UserTypeID="Ahlsell Product" Selected="false">
+                  <Name>Flexband</Name>
+                  <ClassificationReference ClassificationID="MSLevel3_26264944" Type="Master Structure"/>
+                  <AssetCrossReference AssetID="25120342" Type="Primary Image"/>
+                  <Values>
+                    <Value AttributeID="Long Product Description">Flexibelt tätband för golv- och väggvinkel och väggvinklar.</Value>
+                    <Value AttributeID="Short Product Description">Flexibelt tätband för golv- och väggvinkel och väggvinklar.</Value>
+                    <Value AttributeID="Brand" ID="27104958">Finja</Value>
+                    <Value AttributeID="BluePath ID Calc" Derived="true">Product hierarchy root;Ahlsell Product Structure;C;C10;C10A;C10AF;PC_25117331;P_25117524</Value>
+                  </Values>
+                  <Tables>
+                    <Table TableTypeID="stibo.162992394"/>
+                  </Tables>
+                  <Product ID="PIM25114048" UserTypeID="Item">
+                    <Name>402998</Name>
+                    <DeleteClassificationReference ClassificationID="10 6410161" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 8 CK1950" Type="Local Structure"/>
+                    <ClassificationReference ClassificationID="7775246" Type="Primary Supplier">
+                      <MetaData>
+                        <Value AttributeID="Supplier ABC Categorization">A1</Value>
+                        <Value AttributeID="Primary Supplier" ID="J">Yes</Value>
+                      </MetaData>
+                    </ClassificationReference>
+                    <ClassificationReference ClassificationID="10 382820" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6010" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6400870" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6403300" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6410102" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6410110" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 879004" Type="custRef"/>
+                    <Values>
+                      <Value AttributeID="WEBSHOP" ID="J">Yes</Value>
+                      <Value AttributeID="AF000413_LOV" ID="6">ST</Value>
+                      <Value AttributeID="Item Display Position">1</Value>
+                      <Value AttributeID="AEF000008_NUMBERRANGE" UnitID="unece.unit.MMT">100-100</Value>
+                      <Value AttributeID="CATID165" ID="J">Yes</Value>
+                      <Value AttributeID="PARTDESCR1">FLEXBAND FINJA 100 MMX30 M</Value>
+                      <Value AttributeID="AF001151_NUMBERRANGE">1-1</Value>
+                      <Value AttributeID="PARTDESCR2">8 ST/FRP</Value>
+                      <Value AttributeID="CZAHLBRAND" ID="1">Inget varumärke</Value>
+                      <Value AttributeID="AF002522">Flexband</Value>
+                      <Value AttributeID="SALESSTOP_GLOBAL" ID="N">No</Value>
+                      <Value AttributeID="PARTNO">402998</Value>
+                      <Value AttributeID="CLASS8">10 8 CK1950</Value>
+                      <Value AttributeID="PARTNOCAT_NEW">402998</Value>
+                      <Value AttributeID="AEF001438_NUMBERRANGE" UnitID="unece.unit.MTR">30-30</Value>
+                      <Value AttributeID="VENDPARTNO">705020</Value>
+                      <MultiValue AttributeID="PackagingSizes">
+                        <Value>8</Value>
+                      </MultiValue>
+                      <Value AttributeID="customerReferenceDelete">10 6400543</Value>
+                      <MultiValue AttributeID="Customer Catalogue ID">
+                        <Value>10 879 004</Value>
+                      </MultiValue>
+                      <Value AttributeID="BluePath ID Calc" Derived="true">Product hierarchy root;Ahlsell Product Structure;C;C10;C10A;C10AF;PC_25117331;P_25117524;PIM25114048</Value>
+                      <Value AttributeID="Long Product Description" InheritedFrom="P_25117524">Flexibelt tätband för golv- och väggvinkel och väggvinklar.</Value>
+                      <Value AttributeID="Short Product Description" InheritedFrom="P_25117524">Flexibelt tätband för golv- och väggvinkel och väggvinklar.</Value>
+                      <Value AttributeID="Brand" ID="27104958" InheritedFrom="P_25117524">Finja</Value>
+                    </Values>
+                    <Tables/>
+                  </Product>
+                </Product>
+                <Product ID="P_25117525" UserTypeID="Ahlsell Product" Selected="false">
+                  <Name>Lättfix Vit</Name>
+                  <ClassificationReference ClassificationID="MSLevel3_26264944" Type="Master Structure"/>
+                  <AssetCrossReference AssetID="25120331" Type="Primary Image"/>
+                  <Values>
+                    <Value AttributeID="Long Product Description">Lättfix Vit är en vitcementbaserad och dammreducerad fästmassa med hög flexibilitet och lägre vikt. &lt;br/&gt;Produkten används på golv och vägg inom- och utomhus vid montering av keramiska ytmaterial t.ex. kakel, klinker, mosaik, granitkeramik samt natursten. &lt;br/&gt;Den är även lämplig till keramik som kan vara känslig för färggenomslag såsom glasmosaik och ljus marmor.</Value>
+                    <Value AttributeID="Short Product Description">Vitcementbaserad och dammreducerad fästmassa med hög flexibilitet och lägre vikt. &lt;br/&gt;Produkten används på golv och vägg inom- och utomhus vid montering av keramiska ytmaterial t.ex. kakel, klinker.</Value>
+                    <Value AttributeID="Brand" ID="27104958">Finja</Value>
+                    <Value AttributeID="BluePath ID Calc" Derived="true">Product hierarchy root;Ahlsell Product Structure;C;C10;C10A;C10AF;PC_25117331;P_25117525</Value>
+                  </Values>
+                  <Tables>
+                    <Table TableTypeID="stibo.162992394"/>
+                  </Tables>
+                  <Product ID="PIM25114140" UserTypeID="Item">
+                    <Name>402984</Name>
+                    <DeleteClassificationReference ClassificationID="10 6410161" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 8 CK1950" Type="Local Structure"/>
+                    <ClassificationReference ClassificationID="7775246" Type="Primary Supplier">
+                      <MetaData>
+                        <Value AttributeID="Supplier ABC Categorization">A1</Value>
+                        <Value AttributeID="Primary Supplier" ID="J">Yes</Value>
+                      </MetaData>
+                    </ClassificationReference>
+                    <ClassificationReference ClassificationID="10 382820" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6010" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6400870" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6403300" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6410102" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6410110" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 879004" Type="custRef"/>
+                    <Values>
+                      <Value AttributeID="WEBSHOP" ID="J">Yes</Value>
+                      <Value AttributeID="AF000413_LOV" ID="6">ST</Value>
+                      <Value AttributeID="Item Display Position">1</Value>
+                      <Value AttributeID="CATID165" ID="J">Yes</Value>
+                      <Value AttributeID="PARTDESCR1">LÄTTFIX FINJA VIT</Value>
+                      <Value AttributeID="PARTDESCR2">10 KG</Value>
+                      <Value AttributeID="CZAHLBRAND" ID="1">Inget varumärke</Value>
+                      <Value AttributeID="AF002522">Lättfix</Value>
+                      <Value AttributeID="SALESSTOP_GLOBAL" ID="N">No</Value>
+                      <Value AttributeID="PARTNO">402984</Value>
+                      <Value AttributeID="AEF000167_NUMBERRANGE" UnitID="unece.unit.KGM">10-10</Value>
+                      <Value AttributeID="PARTNOCAT_NEW">402984</Value>
+                      <Value AttributeID="CLASS8">10 8 CK1950</Value>
+                      <Value AttributeID="VENDPARTNO">7010658</Value>
+                      <MultiValue AttributeID="PackagingSizes">
+                        <Value>70</Value>
+                      </MultiValue>
+                      <Value AttributeID="customerReferenceDelete">10 6772025</Value>
+                      <MultiValue AttributeID="Customer Catalogue ID">
+                        <Value>10 879 004</Value>
+                      </MultiValue>
+                      <Value AttributeID="BluePath ID Calc" Derived="true">Product hierarchy root;Ahlsell Product Structure;C;C10;C10A;C10AF;PC_25117331;P_25117525;PIM25114140</Value>
+                      <Value AttributeID="Long Product Description" InheritedFrom="P_25117525">Lättfix Vit är en vitcementbaserad och dammreducerad fästmassa med hög flexibilitet och lägre vikt. &lt;br/&gt;Produkten används på golv och vägg inom- och utomhus vid montering av keramiska ytmaterial t.ex. kakel, klinker, mosaik, granitkeramik samt natursten. &lt;br/&gt;Den är även lämplig till keramik som kan vara känslig för färggenomslag såsom glasmosaik och ljus marmor.</Value>
+                      <Value AttributeID="Short Product Description" InheritedFrom="P_25117525">Vitcementbaserad och dammreducerad fästmassa med hög flexibilitet och lägre vikt. &lt;br/&gt;Produkten används på golv och vägg inom- och utomhus vid montering av keramiska ytmaterial t.ex. kakel, klinker.</Value>
+                      <Value AttributeID="Brand" ID="27104958" InheritedFrom="P_25117525">Finja</Value>
+                    </Values>
+                    <Tables/>
+                  </Product>
+                </Product>
+                <Product ID="P_25117528" UserTypeID="Ahlsell Product" Selected="false">
+                  <Name>Fiberrremsa</Name>
+                  <ClassificationReference ClassificationID="MSLevel3_26264944" Type="Master Structure"/>
+                  <AssetCrossReference AssetID="25120333" Type="Primary Image"/>
+                  <Values>
+                    <Value AttributeID="Long Product Description">För försegling av skivskarvar.</Value>
+                    <Value AttributeID="Brand" ID="27104958">Finja</Value>
+                    <Value AttributeID="BluePath ID Calc" Derived="true">Product hierarchy root;Ahlsell Product Structure;C;C10;C10A;C10AF;PC_25117331;P_25117528</Value>
+                  </Values>
+                  <Tables>
+                    <Table TableTypeID="stibo.162992394"/>
+                  </Tables>
+                  <Product ID="PIM25114266" UserTypeID="Item">
+                    <Name>402988</Name>
+                    <DeleteClassificationReference ClassificationID="10 6410161" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 8 CK1950" Type="Local Structure"/>
+                    <ClassificationReference ClassificationID="7775246" Type="Primary Supplier">
+                      <MetaData>
+                        <Value AttributeID="Supplier ABC Categorization">A1</Value>
+                        <Value AttributeID="Primary Supplier" ID="J">Yes</Value>
+                      </MetaData>
+                    </ClassificationReference>
+                    <ClassificationReference ClassificationID="10 382820" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6010" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6400870" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6410102" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6410110" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 879004" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 Prevex" Type="custRef"/>
+                    <Values>
+                      <Value AttributeID="WEBSHOP" ID="J">Yes</Value>
+                      <Value AttributeID="AF000413_LOV" ID="6">ST</Value>
+                      <Value AttributeID="Item Display Position">2</Value>
+                      <Value AttributeID="CATID165" ID="J">Yes</Value>
+                      <Value AttributeID="AEF000008_NUMBERRANGE" UnitID="unece.unit.MMT">120-120</Value>
+                      <Value AttributeID="PARTDESCR1">FIBERREMSA FINJA 120 MMX25M</Value>
+                      <Value AttributeID="AF001151_NUMBERRANGE">1-1</Value>
+                      <Value AttributeID="CZASSORTMENT" ID="U">TDB (U)</Value>
+                      <Value AttributeID="PARTDESCR2">30 ST/FRP</Value>
+                      <Value AttributeID="CZAHLBRAND" ID="1">Inget varumärke</Value>
+                      <Value AttributeID="AF002522">Fiberremsa</Value>
+                      <Value AttributeID="SALESSTOP_GLOBAL" ID="N">No</Value>
+                      <Value AttributeID="PARTNO">402988</Value>
+                      <Value AttributeID="PARTNOCAT_NEW">402988</Value>
+                      <Value AttributeID="CLASS8">10 8 CK1950</Value>
+                      <Value AttributeID="AEF001438_NUMBERRANGE" UnitID="unece.unit.MMT">25-25</Value>
+                      <Value AttributeID="VENDPARTNO">705015</Value>
+                      <MultiValue AttributeID="PackagingSizes">
+                        <Value>20</Value>
+                      </MultiValue>
+                      <Value AttributeID="customerReferenceDelete">10 6400543</Value>
+                      <MultiValue AttributeID="Customer Catalogue ID">
+                        <Value>10 879 004</Value>
+                      </MultiValue>
+                      <Value AttributeID="BluePath ID Calc" Derived="true">Product hierarchy root;Ahlsell Product Structure;C;C10;C10A;C10AF;PC_25117331;P_25117528;PIM25114266</Value>
+                      <Value AttributeID="Long Product Description" InheritedFrom="P_25117528">För försegling av skivskarvar.</Value>
+                      <Value AttributeID="Brand" ID="27104958" InheritedFrom="P_25117528">Finja</Value>
+                    </Values>
+                    <Tables/>
+                  </Product>
+                </Product>
+                <Product ID="P_25117529" UserTypeID="Ahlsell Product" Selected="false">
+                  <Name>Skarvlim</Name>
+                  <ClassificationReference ClassificationID="MSLevel3_26264944" Type="Master Structure"/>
+                  <AssetCrossReference AssetID="25120344" Type="Primary Image"/>
+                  <Values>
+                    <Value AttributeID="Long Product Description">Finja Skarvlim är ett fukthärdande 1-komponentslim för limning och försegling av skarvar och genomföringar.  &lt;br/&gt;Produkten är fri från lösningsmedel och ingår i Finja Våtrumssystem.</Value>
+                    <Value AttributeID="Short Product Description">Finja Skarvlim är ett fukthärdande 1-komponentslim för limning och försegling av skarvar och genomföringar. &lt;br/&gt;Produkten är fri från lösningsmedel och ingår i Finja Våtrumssystem.</Value>
+                    <Value AttributeID="Brand" ID="27104958">Finja</Value>
+                    <Value AttributeID="BluePath ID Calc" Derived="true">Product hierarchy root;Ahlsell Product Structure;C;C10;C10A;C10AF;PC_25117331;P_25117529</Value>
+                  </Values>
+                  <Tables>
+                    <Table TableTypeID="stibo.162992394"/>
+                  </Tables>
+                  <Product ID="PIM25114307" UserTypeID="Item">
+                    <Name>403000</Name>
+                    <DeleteClassificationReference ClassificationID="10 6410161" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 8 CK1950" Type="Local Structure"/>
+                    <ClassificationReference ClassificationID="7775246" Type="Primary Supplier">
+                      <MetaData>
+                        <Value AttributeID="Supplier ABC Categorization">A1</Value>
+                        <Value AttributeID="Primary Supplier" ID="J">Yes</Value>
+                      </MetaData>
+                    </ClassificationReference>
+                    <ClassificationReference ClassificationID="10 382820" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6010" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6400870" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6403300" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6410102" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 6410110" Type="custRef"/>
+                    <ClassificationReference ClassificationID="10 879004" Type="custRef"/>
+                    <AssetCrossReference AssetID="25120344" Type="Primary Image"/>
+                    <Values>
+                      <Value AttributeID="WEBSHOP" ID="J">Yes</Value>
+                      <Value AttributeID="AF000413_LOV" ID="6">ST</Value>
+                      <Value AttributeID="AEF000880_NUMBERRANGE" UnitID="unece.unit.MLT">300-300</Value>
+                      <Value AttributeID="Item Display Position">1</Value>
+                      <Value AttributeID="CATID165" ID="J">Yes</Value>
+                      <Value AttributeID="PARTDESCR1">SKARVLIM FINJA 300 ML</Value>
+                      <Value AttributeID="AF001151_NUMBERRANGE">1-1</Value>
+                      <Value AttributeID="PARTDESCR2">12 ST/FRP</Value>
+                      <Value AttributeID="CZAHLBRAND" ID="1">Inget varumärke</Value>
+                      <Value AttributeID="AF002522">Skarvlim</Value>
+                      <Value AttributeID="SALESSTOP_GLOBAL" ID="N">No</Value>
+                      <Value AttributeID="PARTNO">403000</Value>
+                      <Value AttributeID="CLASS8">10 8 CK1950</Value>
+                      <Value AttributeID="PARTNOCAT_NEW">403000</Value>
+                      <Value AttributeID="VENDPARTNO">705051</Value>
+                      <MultiValue AttributeID="PackagingSizes">
+                        <Value>12</Value>
+                      </MultiValue>
+                      <Value AttributeID="customerReferenceDelete">10 6772025</Value>
+                      <MultiValue AttributeID="Customer Catalogue ID">
+                        <Value>10 879 004</Value>
+                      </MultiValue>
+                      <Value AttributeID="BluePath ID Calc" Derived="true">Product hierarchy root;Ahlsell Product Structure;C;C10;C10A;C10AF;PC_25117331;P_25117529;PIM25114307</Value>
+                      <Value AttributeID="Long Product Description" InheritedFrom="P_25117529">Finja Skarvlim är ett fukthärdande 1-komponentslim för limning och försegling av skarvar och genomföringar.  &lt;br/&gt;Produkten är fri från lösningsmedel och ingår i Finja Våtrumssystem.</Value>
+                      <Value AttributeID="Short Product Description" InheritedFrom="P_25117529">Finja Skarvlim är ett fukthärdande 1-komponentslim för limning och försegling av skarvar och genomföringar. &lt;br/&gt;Produkten är fri från lösningsmedel och ingår i Finja Våtrumssystem.</Value>
+                      <Value AttributeID="Brand" ID="27104958" InheritedFrom="P_25117529">Finja</Value>
+                    </Values>
+                    <Tables/>
+                  </Product>
+                </Product>
+              </Product>
+            </Product>
+          </Product>
+        </Product>
+      </Product>
+    </Product>
+
+  </Products>
+
+</STEP-ProductInformation>
